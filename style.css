@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap');
+
+/* DEFAULT STYLING */
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Red Rose';
+    font-weight: 700;
+    color:#fff;
+}
+
+/* MAIN DIV */
+.main {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to left bottom, #000000 0%, #0c4a91 100%);
+    position: absolute;
+}
+
+.score-board{
+    margin-top: 5%;
+    display: flex;
+    font-size: 42px;
+    justify-content: center;
+    align-content: center;
+}
+
+.scores, .user-box .comp-box{
+    padding: 0% 2%;
+}
+
+.options {
+    display:flex;
+    margin:5% 0%;
+    justify-content: center;
+}
+
+.rock-option, .paper-option, .scissor-option{
+    padding:2%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 20px;
+    margin: 0% 1%;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.rock-option:hover, .paper-option:hover, .scissor-option:hover{
+    background:#505050cc;
+    cursor: pointer;
+}
+
+.result-board{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin: 5% 0%;
+    font-size: 22px;
+}
+
+.refresh-board{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#refresh{
+    text-decoration: none;
+    border-style:solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 20px;
+    padding:2%;
+    transition: 0.5s ease-in-out;
+}
+
+#refresh:hover{
+    border-color: #ffbb00;
+    background: #f8d472;
+    color:black;
+}
+
+.green-border{
+    border-color: #74f10e;
+    transition: 0.3s ease-in-out;
+}
+
+.red-border{
+    border-color: red;
+    transition: 0.3s ease-in-out;
+}
+
+.yellow-border{
+    border-color: yellow;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+/* border-style: dashed;
+border-color: red; */
